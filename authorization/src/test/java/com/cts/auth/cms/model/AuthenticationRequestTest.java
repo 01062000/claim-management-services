@@ -1,0 +1,46 @@
+package com.cts.auth.cms.model;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.meanbean.test.BeanTester;
+import org.mockito.Mock;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@SpringBootApplication
+class AuthenticationRequestTest
+{
+   @Autowired
+   @Mock
+   private AuthenticationRequest authenticationRequest;
+
+   @Test
+   @DisplayName("Checking for AuthenticationRequest - if it is loading or not")
+   void authenticationRequestNotNullTest(){
+       assertThat(authenticationRequest).isNull();
+   }
+
+	@Test
+	void testUserLoginBean() {
+		final BeanTester beanTester = new BeanTester();
+		beanTester.testBean(AuthenticationRequest.class);
+	}
+
+
+	@Test
+	void testUserTokenBean() {
+		final BeanTester beanTester = new BeanTester();
+		beanTester.testBean(AuthenticationResponse.class);
+	}
+
+	@Test
+	void testUserLoginAllArgs() {
+		AuthenticationRequest authenticationRequest = new AuthenticationRequest("M109", "adyasha", "dummy");
+		assertEquals("adyasha", authenticationRequest.getUsername());
+		assertEquals("dummy", authenticationRequest.getPassword());
+	}
+
+}
