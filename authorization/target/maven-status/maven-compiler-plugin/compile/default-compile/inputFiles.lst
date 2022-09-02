@@ -1,12 +1,13 @@
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\SecurityConfigurer.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\AuthorizationApplication.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\model\AuthenticationRequest.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\controller\AuthorizationController.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\dto\VaildatingDTO.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\exceptions\LoginException.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\filters\JwtRequestFilter.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\dto\AuthenticationRequestDTO.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\repository\AuthRequestRepo.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\util\JwtUtil.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\service\AppUserDetailsService.java
-D:\Claim(with changes)\MFPE-POD-03--Claims-Management-System-master\Claim Management System\Backend\authorization\src\main\java\com\authorizationservice\authorization\model\AuthenticationResponse.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\model\AuthenticationResponse.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\exceptions\LoginException.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\service\AppUserDetailsService.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\exceptions\UserNotFoundException.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\filters\JwtRequestFilter.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\model\AuthenticationRequest.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\model\AuthenticationRequestDTO.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\AuthorizationApplication.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\controller\AuthorizationController.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\SecurityConfigurer.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\exceptions\UserNameNumericException.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\repository\AuthRequestRepo.java
+D:\Cognizant-internship-CDE-Project\Claims-management-system\Backend\authorization\src\main\java\com\cts\auth\cms\util\JwtUtil.java

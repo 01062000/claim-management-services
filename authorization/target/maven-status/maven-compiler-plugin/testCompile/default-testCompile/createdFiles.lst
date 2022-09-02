@@ -1,6 +1,6 @@
-com\authorizationservice\authorization\util\JwtUtilTest.class
-com\authorizationservice\authorization\model\AuthenticationResponseTest.class
-com\authorizationservice\authorization\AuthorizationApplicationTests.class
-com\authorizationservice\authorization\service\AppUserDetailsServiceTest.class
-com\authorizationservice\authorization\controller\AuthorizationControllerTest.class
-com\authorizationservice\authorization\model\AuthenticationRequestTest.class
+com\cts\auth\cms\model\AuthenticationResponseTest.class
+com\cts\auth\cms\AuthorizationApplicationTests.class
+com\cts\auth\cms\controller\AuthorizationControllerTest.class
+com\cts\auth\cms\service\AppUserDetailsServiceTest.class
+com\cts\auth\cms\util\JwtUtilTest.class
+com\cts\auth\cms\model\AuthenticationRequestTest.class
